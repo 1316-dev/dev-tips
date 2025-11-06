@@ -31,6 +31,7 @@ const config = {
   projectName: 'dev-tips', // Usually your repo name.
   trailingSlash: false,
   onBrokenLinks: 'throw',
+  deploymentBranch: 'gh-pages',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -48,10 +49,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+          },
         theme: {
           customCss: './src/css/custom.css',
         },
