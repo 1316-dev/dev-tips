@@ -119,4 +119,4 @@ Dans le main
 
 Rendu Terminal:
 
-![alt text](getter-setter.png)
+![alt text](img/getter-setter.png)

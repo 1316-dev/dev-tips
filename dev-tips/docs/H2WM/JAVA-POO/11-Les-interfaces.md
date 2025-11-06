@@ -7,7 +7,7 @@ sidebar_position: 10
 interface = "contrat sans implémentation"
 On instancie pas une interface
 
-![alt text](interface.png)
+![alt text](img/interface.png)
 
 à l'intérieur on y met (historiquement) :
 
@@ -16,7 +16,7 @@ On instancie pas une interface
 
 En résumé avec les évolutions de JAVA :
 
-![alt text](interface-contenu.png)
+![alt text](img/interface-contenu.png)
 
 **Transtypage : la classe implémentée obtient le type de l'interface et est considérée comme**
 
@@ -25,7 +25,7 @@ En résumé avec les évolutions de JAVA :
 Une interface propose des services mais ne prévoit pas les moyens techniques de mise en oeuvre.
 Permet de normaliser les noms de fonctionnalités.
 
-Définition : Une interface n'est pas instanciable et ses fonctionnalités sont abstraites (JDK <8)
+Définition : Une interface n'est pas instanciable et ses fonctionnalités sont abstraites (JDK inf 8)
 
     exemple :
         - Avion signe le contrat de voler() / decoller, atterir, monter, descendre
@@ -34,7 +34,7 @@ Définition : Une interface n'est pas instanciable et ses fonctionnalités sont 
 
 ## La mise en place d'une interface
 
-![alt text](interface-uml.png)
+![alt text](img/interface-uml.png)
 
 
 ## Pour implémenter une interface (en UML ----> flèche pointillé blanche)
@@ -42,13 +42,13 @@ Définition : Une interface n'est pas instanciable et ses fonctionnalités sont 
 Pour implementer une interface on utilise le mot clé implements
 Si la classe est déjà hérité (extends), on le met à la suite
 
-![alt text](implements.png)
+![alt text](img/implements.png)
 
 ## Méthode par défaut
 
 On peut définir le comportement par défaut d'une méthode non abstraite
 
-![alt text](interface-methode-default.png)
+![alt text](img/interface-methode-default.png)
 
 ### Exemple :
 
@@ -127,7 +127,7 @@ public class Demo {
 
 #### Resultat de l'execution de la demonstration
 
-![alt text](interface-exemple.png)
+![alt text](img/interface-exemple.png)
 
 ### à retenir
 

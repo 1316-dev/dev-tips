@@ -54,7 +54,7 @@ La signature d'une méthode comprend le nom de la classe, le nom de la méthode 
 
 On peut donc avoir deux methodes du même nom si elle nom pas la même signature  
 
-!![alt text](signature.png)
+!![alt text](img/signature.png)
 
 
 ## Encapsulation
@@ -91,7 +91,7 @@ méthode : calculersurface() avec une surcharge dans chaque clase enfant (polymo
 
 ## Exemple 2 :
 
-![alt text](polymorphisme.png)
+![alt text](img/polymorphisme.png)
 
 
 ## Qu'est ce qu'un import ?

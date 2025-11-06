@@ -6,7 +6,7 @@ sidebar_position: 9
 
 Différence entre unidirectionnel et bidirectionnel
 
-![alt text](association.png)
+![alt text](img/association.png)
 
 ## Unidirectionnel
 
@@ -31,7 +31,7 @@ Exemple : Une classe Client a une liste d'attributs de type CompteBancaire. La c
 
 La notation de la multiplicité en UML est très standardisée. Voici les valeurs les plus courantes et leur signification :
 
-![alt text](cardinalite.png)
+![alt text](img/cardinalite.png)
 
 ### Application dans un Diagramme de Classes
 

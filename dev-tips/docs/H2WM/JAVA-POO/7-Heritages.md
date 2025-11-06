@@ -6,7 +6,7 @@ sidebar_position: 7
 
 en uml fleche blanche enfant -> Parents
 
-![alt text](heritage-uml.png)
+![alt text](img/heritage-uml.png)
 
 **On ne peut pas faire d'héritage multiple en JAVA**,
 on ne peut hérité que d'une seule classe

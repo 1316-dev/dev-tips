@@ -7,7 +7,7 @@ Différence entre un attribut de classe (ou statique) et un attribut d'instance 
 
 Un attribut de classe est déclaré avec le mot-clé static.
 
-![alt text](attributDeClasse.png)
+![alt text](img/attributDeClasse.png)
 
 exemple avec un setter :
 
@@ -21,7 +21,7 @@ exemple avec un setter :
 
 Un attribut d'instance est déclaré sans le mot-clé static. C'est le type d'attribut le plus courant.
 
-![alt text](attributDInstance.png)
+![alt text](img/attributDInstance.png)
 
 exemple avec un setter :
 
@@ -35,7 +35,7 @@ exemple avec un setter :
 
 La différence fondamentale réside dans l'endroit où la donnée est stockée et comment elle est partagée :
 
-![alt text](attributSynthese.png)
+![alt text](img/attributSynthese.png)
 
 **En résumé** :  
 Si on change la valeur d'un **attribut d'instance** sur un objet, cela n'affecte pas les autres objets.  

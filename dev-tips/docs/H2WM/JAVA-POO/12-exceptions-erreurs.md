@@ -86,11 +86,11 @@ public static void main(String[] args) {
 
 ![alt text](img/throws.png)
 
-![alt text](/img/throws-ex.png)
+![alt text](img/throws-ex.png)
 
 Différence entre Throw et Throws
 
-![alt text](/img/throw-throws.png)
+![alt text](img/throw-throws.png)
 
 ## Créer et Lever des Exceptions
 
@@ -284,6 +284,7 @@ Résultat de l'exécution
 
 exemple courrant :
 
+```JAVA
 try {
     verser de l’eau dans la cafetière
     ajouter du café moulu
@@ -294,6 +295,7 @@ try {
     si pas de café -> aller en acheter ou prendre du thé
     si panne de courant -> utiliser une cafetière à piston
 }
+```
 
 exemple chat GPT (Julien) :
 

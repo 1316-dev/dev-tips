@@ -22,7 +22,7 @@ méthode : calculersurface() avec une surcharge dans chaque clase enfant (polymo
 
 ## Exemple 2 :
 
-![alt text](polymorphisme.png)
+![alt text](img/polymorphisme.png)
 
 ## Autres exemple
 
