@@ -20,13 +20,13 @@ double : Double
 
 ![alt text](img/genericite.png)
 
-1- Mettre un mot qui n'existe pas dans les types "Blop" (la norme c'est de mettre <T>)
-2- on met class Attribute <Blop> (Dans la norme on met Attribute <T>)
+1- Mettre un mot qui n'existe pas dans les types "Blop" (la norme c'est de mettre "chevron"T"chevron")
+2- on met class Attribute "chevron"Blop"chevron"(Dans la norme on met Attribute "chevron"T"chevron")
 3- Ce qui donne :
- - Attribute a1 = new Attribute<Integer>
- - Attribute a1 = new Attribute<String>
+ - Attribute a1 = new Attribute "chevron"Integer"chevron"
+ - Attribute a1 = new Attribute"chevron"String"chevron"
 
-4- S'il y en a plusieurs T, U, V, W... ou autre mot clé du contexte et respecter l'ordre
+4- S'il y en a plusieurs "chevron"T, U, V, W..."chevron" ou autre mot clé du contexte et respecter l'ordre
 
  ```JAVA
 package entrainement;
