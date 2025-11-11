@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 ---
-# Intro
+# Intro JAVA POO
 
 Objet = Concept issu du monde réel
 
