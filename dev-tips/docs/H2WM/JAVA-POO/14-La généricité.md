@@ -26,7 +26,7 @@ double : Double
  - Attribute a1 = new Attribute<Integer>
  - Attribute a1 = new Attribute<String>
 
-4- S'il y en a plusieurs <T, U, V, W...> ou autre mot clé du contexte et respecter l'ordre
+4- S'il y en a plusieurs T, U, V, W... ou autre mot clé du contexte et respecter l'ordre
 
  ```JAVA
 package entrainement;

@@ -30,4 +30,3 @@ Relations entre Classes : Association
     **Composition**  : Une relation forte, où l'objet contenu ne peut pas exister sans l'objet conteneur (relation de dépendance forte).
 
 
-![alt text](img/mindmappoo.png)
