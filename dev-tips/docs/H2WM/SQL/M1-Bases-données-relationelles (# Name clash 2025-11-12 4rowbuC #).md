@@ -42,8 +42,6 @@ Clé identifiant naturel : le nom a un sens fonctionnel
 Clé composite : le couple de valeurs doit être unique ( c'est le binome qui crée la clé)
 ![alt text](img/cle-composite.PNG)
 
-En résumé, si votre clé primaire doit être un identifiant unique et simple à gérer sans dépendre des données externes, l'utiliser avec **IDENTITY** est la meilleure pratique. Si elle a un sens métier (clé naturelle) ou si elle est composée, IDENTITY n'est pas utilisé.
-
 ### CLE SECONDAIRE / mot clé  UNIQUE
 
 - Plusieurs possibles au sein d’une même table
