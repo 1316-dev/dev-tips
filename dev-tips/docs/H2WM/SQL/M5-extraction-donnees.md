@@ -248,3 +248,21 @@ INNER JOIN Articles ON Details_commandes.id_article = Articles.id_article
 Résultat :
 
 ![alt text](img/m6-innerjoin-ex2.PNG)
+
+#### LA JOINTURE EXTERNE (très utilisé)
+
+RIGHT (OUTER) JOIN
+On peut réupérer les données de la table de droite même s'il n'y a pas de coresspondance dans la table de gauche.
+
+Exemple : 
+on récupère les clients, même s'ils 'nont pas de commandes
+
+```SQL
+SELECT *
+FROM Commandes RIGHT OUTER JOIN Clients
+ON Commandes.id_client = Clients.id_client;
+```
+
+![alt text](img/jointure-externe.PNG)
+
+LEFT OUTER JOIN idem dans l'autre sens
